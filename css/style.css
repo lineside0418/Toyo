@@ -67,7 +67,7 @@ body header img:active {
     display: cover;
     z-index: 1;
     position: absolute;
-    background-size: cover;
+    background-size: auto 100%;
     filter: brightness(0.4);
 }
 
