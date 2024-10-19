@@ -15,7 +15,7 @@ body header {
     padding: 0 20px;
     position: relative;
     display: flex;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.5);
     vertical-align: center;
     text-align: center;
     height: 80px;
