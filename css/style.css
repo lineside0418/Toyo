@@ -64,7 +64,6 @@ body header img:active {
 }
 
 .bg_dark img {
-    display: cover;
     z-index: 1;
     position: absolute;
     background-size: auto 100%;
