@@ -254,14 +254,22 @@ header ul li:active {
     font-family: inter;
     margin-left: 10%;
     overflow: hidden;
-    transform: translateY(0.2em);
+    transform: translateY(0.4em);
     animation: top_title_animation 1s forwards;
 
     transition-duration: 0.2s;
 }
+
+.top_title .top_title_anim_1 {
+    animation-delay: 0.1s;
+}
+.top_title .top_title_anim_1 {
+    animation-delay: 0.2s;
+}
+
 @keyframes top_title_animation {
     0% {
-        transform: translateY(0.2em);
+        transform: translateY(0.4em);
         opacity: 0;
     }
 
