@@ -241,6 +241,9 @@ header ul li:active {
     }
 }
 
+/* top title animation */
+
+
 .top_title {
     z-index: 3;
     color: white;
@@ -252,9 +255,24 @@ header ul li:active {
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
     font-family: inter;
     margin-left: 10%;
+    overflow: hidden;
+    transform: translateY(2em);
+    animation: top_title_animation 0.5s forwards;
 
     transition-duration: 0.2s;
 }
+@keyframes top_title_animation {
+    0% {
+        transform: translateY(1em);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 
 .top_title:hover {
     transform: scale(1.05);
