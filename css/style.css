@@ -256,6 +256,7 @@ header ul li:active {
     overflow: hidden;
     transform: translateY(0.4em);
     animation: top_title_animation 1s forwards;
+    white-space: nowrap;
 
     transition-duration: 0.2s;
 }
