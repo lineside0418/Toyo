@@ -185,23 +185,51 @@ header ul li:active {
 }
 /* 8文字目 */
 .txt p:nth-child(8) {
-    animation-delay: 0.7s
+    animation-delay: 0.8s
 }
 /* 9文字目 */
 .txt p:nth-child(9) {
-    animation-delay: 0.8s
+    animation-delay: 0.9s
 }
 /* 10文字目 */
 .txt p:nth-child(10) {
-    animation-delay: 0.9s
+    animation-delay: 1.0s
 }
 /* 11文字目 */
 .txt p:nth-child(11) {
-    animation-delay: 1.0s
+    animation-delay: 1.1s
 }
 /* 12文字目 */
 .txt p:nth-child(12) {
-    animation-delay: 1.1s
+    animation-delay: 1.2s
+}
+/* 13文字目 */
+.txt p:nth-child(13) {
+    animation-delay: 1.3s
+}
+/* 14文字目 */
+.txt p:nth-child(14) {
+    animation-delay: 1.4s
+}
+/* 15文字目 */
+.txt p:nth-child(15) {
+    animation-delay: 1.5s
+}
+/* 16文字目 */
+.txt p:nth-child(16) {
+    animation-delay: 1.6s
+}
+/* 17文字目 */
+.txt p:nth-child(17) {
+    animation-delay: 1.7s
+}
+/* 18文字目 */
+.txt p:nth-child(18) {
+    animation-delay: 1.8s
+}
+/* 19文字目 */
+.txt p:nth-child(19) {
+    animation-delay: 1.9s
 }
 
 
