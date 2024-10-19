@@ -9,6 +9,7 @@
 
 body {
     user-select: none;
+    overflow-x: hidden;
 }
 
 body header {
@@ -66,8 +67,13 @@ body header img:active {
 .bg_dark img {
     z-index: 1;
     position: absolute;
-    background-size: auto 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 16 / 9;
+    min-width: 1600px;
+    min-height: 800px;
     filter: brightness(0.4);
+    object-fit: cover;
 }
 
 .header_button {
